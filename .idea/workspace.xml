@@ -27,6 +27,11 @@
       <change afterPath="$PROJECT_DIR$/../hastJava/service-user/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hastJava/service-user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hastJava/service-user/src/main/resources/sql/user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/haugv/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/haugv/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz-demo/src/main/java/com/haugv/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz-demo/src/main/java/com/haugv/quartz/ScheduledTask.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
@@ -37,11 +42,20 @@
       <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/src/main/java/com/haugv/AppApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springboot-mongodb-study/src/test/java/com/haugv/AppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-demo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,6 +86,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -81,6 +99,51 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-quartz-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.haugv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.haugv.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.haugv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.haugv.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -92,7 +155,7 @@
       <updated>1615272411292</updated>
       <workItem from="1615272412851" duration="2893000" />
       <workItem from="1615336098048" duration="104000" />
-      <workItem from="1615336271233" duration="1039000" />
+      <workItem from="1615336271233" duration="5592000" />
     </task>
     <servers />
   </component>
